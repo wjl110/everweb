@@ -1,0 +1,49 @@
+/* Forms styles */
+.ew_cf label
+{
+    float: left;
+    display: block;
+    width: 100%;
+}
+.ew_cf input[type="text"],.ew_cf input[type="tel"],.ew_cf input[type="email"], .ew_cf select, .ew_cf textarea {
+    width: 94%;
+    outline: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 3%;
+    border: 1px solid #BBB;
+    -webkit-transition: -webkit-box-shadow 0.6s ease-out;
+    -moz-transition: -moz-box-shadow 0.6s ease-out;
+    -o-transition: box-shadow 0.6s ease-out;
+    transition: box-shadow 0.6s ease-out;
+}
+.ew_cf select
+{
+    width: 160px;
+}
+.ew_cf textarea
+{
+    height: 60px;
+}
+.ew_cf input:hover, .ew_cf select:hover, .ew_cf textarea:hover {
+    -moz-box-shadow: 0px 0px 3px #02cde8;
+    -webkit-box-shadow: 0px 0px 3px #02cde8;
+    box-shadow: 0px 0px 3px #02cde8;
+}
+.ew_cf input:focus, .ew_cf select:focus, .ew_cf textarea:focus {
+    -moz-box-shadow: 0px 0px 6px #02cde8;
+    -webkit-box-shadow: 0px 0px 6px #02cde8;
+    box-shadow: 0px 0px 6px #02cde8;
+}
+.ew_cf .error {
+    color: red;
+}
+.ew_cf button
+{
+    float: right;
+    margin-right: 5%;
+    padding: 6px 12px;
+
+}
+/* end of Forms style */
